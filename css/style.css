@@ -1,1 +1,111 @@
+.bg-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpeg);
+}
+.headphone-bg-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpeg);
+}
+.rode-ntusb-bg-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/rode-nt-usb-webheader-v7-1920x700-rgb.jpeg);
+}
+.podmic-bg-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/rode-podmic-webheader-1920x700-rgb\ \(2\).jpeg);
+}
+.wireless-go-bg-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/WIGOII-WEBHEADER-02.jpeg);
+}
+.usbmini-bg-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/rode-nt-usb-mini-webheader-1920x700-rgb\ \(2\).jpeg);
+}
+.h-700{
+    height: 700px;
+}
+.text-wiskey, .hover-text-wiskey:hover{
+    color: #ad9970;
+}
+.bg-wiskey{
+    background-color: #ad9970;
+}
+.dropdown-toggle:after {
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-top: 0.3em solid;
+    content: "";
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+}
+.text-white-50 {
+    color: hsla(0,0%,100%,.5)!important;
+}
+.w-480 {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+}
+.w-100{
+    width: 100%;
+}
+button, .rode-text, .fw-600{
+    font-weight: 600 !important;
+}
+.center-img{
+    width: 1000px;
+}
+h2 {
+    color: #767676;
+}
+.container{
+    max-width:1140px !important ;
+}
+body{
+    background-color: #f8f9fa!important;
+}
+.text-height{
+    min-height: 80px;
+}
+.page-header__toggle {
+    display: none;
+  }
 
+@media only screen and (max-width: 768px) {  
+  .page-header__bottom{
+    display: none !important;
+  }
+  .page-header__toggle {
+    display: block;
+    color: #000;
+  }
+  .navigation-div{
+    position: relative;
+  }
+  .navigation {
+    position: absolute;
+    left: 0;
+    background: #f8f9fa;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .navigation a{
+    display: block;
+  }
+  .tg-icon{
+    font-size: 30px;
+    color: #767676;
+  }
+  .h-700 {
+    height: 100% !important;
+}
+}
